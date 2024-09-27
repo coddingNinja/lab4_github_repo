@@ -8,4 +8,5 @@ class Product:
       pass
 
   def make_purchase(self, quantity):
-      pass
+      self.amount -= quantity
+      return get_price(quantity=quantity)
