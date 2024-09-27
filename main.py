@@ -9,4 +9,4 @@ class Product:
 
   def make_purchase(self, quantity):
       self.amount -= quantity
-      return get_price(quantity=quantity)
+      return self.get_price(quantity=quantity)
