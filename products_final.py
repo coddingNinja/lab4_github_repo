@@ -1,3 +1,6 @@
+#sp23-bai-006
+#sp23-bai-018
+
 from exception import OutOfStockException
 
 class Product:
